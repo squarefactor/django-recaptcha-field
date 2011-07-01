@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='django-recaptcha',
+    name='django-recaptcha-field',
     version='0.1',
     description='Django recaptcha form field/widget app.',
     long_description = open('README.markdown', 'r').read(),
-    author='Praekelt Foundation',
+    author='jordanorelli',
     license='BSD',
     url='https://github.com/jordanorelli/django-recaptcha-field.git',
     packages = find_packages(),
